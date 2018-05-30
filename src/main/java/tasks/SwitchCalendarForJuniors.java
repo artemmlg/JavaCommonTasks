@@ -11,45 +11,45 @@ public class SwitchCalendarForJuniors {
         String monthName;
         switch (month) {
             case 1:
-                monthName = "Январь";
+                monthName = "January";
                 break;
             case 2:
-                monthName = "Февраль";
+                monthName = "February";
                 break;
             case 3:
-                monthName = "Март";
+                monthName = "March";
                 break;
             case 4:
-                monthName = "Опрель";
+                monthName = "April";
                 break;
             case 5:
-                monthName = "Май";
+                monthName = "May";
                 break;
             case 6:
-                monthName = "Июнь";
+                monthName = "June";
                 break;
             case 7:
-                monthName = "Июль";
+                monthName = "July";
                 break;
             case 8:
-                monthName = "Август";
+                monthName = "August";
                 break;
             case 9:
-                monthName = "Сентябрь";
+                monthName = "September";
                 break;
             case 10:
-                monthName = "Октябрь";
+                monthName = "October";
                 break;
             case 11:
-                monthName = "Ноябрь";
+                monthName = "November";
                 break;
             case 12:
-                monthName = "Декабрь";
+                monthName = "December";
                 break;
             default:
-                monthName = "Нет такого месяца, сорян";
+                monthName = "?!Month is NaN?!";
                 break;
         }
-        System.out.println("Название месяца: " + monthName);
+        System.out.println("Month name: " + monthName);
     }
 }
